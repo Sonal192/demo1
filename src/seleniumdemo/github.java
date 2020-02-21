@@ -11,8 +11,7 @@ public class github {
 		driver.manage().window().maximize();                                             
 		driver.get("http://demo.guru99.com/test/upload");   
 		Thread.sleep(2000);
-		driver.findElement(By.id(""));
+		
 		
 
-}
 }
