@@ -13,7 +13,7 @@ public class ih {
 	String user="admin";
 	String pass="admin";
 	String url ="https://"+user+ ","+pass+"the-internet.herokuapp.com/basic_auth";
-			
+		driver.get(url);	
 	//	driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
 		//Thread.sleep(2000);
 }
